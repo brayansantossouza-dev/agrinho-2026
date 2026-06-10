@@ -44,10 +44,9 @@ Não é necessário servidor local.
 
 Substitua os links abaixo após publicar no GitHub Pages:
 
-- 🔗 **Site:** `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`
-- 📦 **Repositório:** `https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO`
+- 🔗 **Site:** `https://brayansantossouza-dev.github.io/agrinho-2026/`
+- 📦 **Repositório:** `https://github.com/brayansantossouza-dev/agrinho-2026`
 
-> O edital exige repositório **público**, **GitHub Pages funcional** e a URL declarada na seção **About** do GitHub.
 
 ## 📁 Estrutura
 
@@ -71,20 +70,3 @@ Substitua os links abaixo após publicar no GitHub Pages:
     │   └── atribuicoes.js
     └── images/            (ícones, decorações, logos PNG)
 ```
-
-## 📋 Publicação no GitHub (checklist Agrinho)
-
-| Item | Obrigatório |
-|------|-------------|
-| Repositório **público** | Sim |
-| Topic **`agrinho`** em **Topics** (não só na descrição) | Sim |
-| Campo **About → Website** com URL do GitHub Pages | Sim |
-| **Descrição** curta do tema no About | Sim |
-| `index.html` na raiz + CSS/JS em arquivos externos | Sim |
-| Sem CSS/JS inline, sem frameworks, sem merge de repos | Sim |
-| README com objetivo, tecnologias e como executar | Sim |
-| Link do repositório enviado no AVA (unidade Agrinho 2026) | Sim |
-
-## 📄 Licença e créditos
-
-Código sob **licença MIT** (2026, Brayan Wilian dos Santos de Souza). Detalhes de imagens, fontes e links externos em [`atribuicoes.html`](atribuicoes.html).
