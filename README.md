@@ -3,10 +3,10 @@
 > Site educativo sobre **Agro Forte, futuro sustentável: equilíbrio entre produção e meio ambiente**. Três eixos — produção sustentável, ar limpo e bem-estar animal — com links para organizações que atuam em cada tema.
 
 **Autor:** Brayan Wilian dos Santos de Souza  
-**Escola:** Professora Linda Salamuni Bacila 
+**Escola:** Professora Linda Salamuni Bacila  
 **Categoria:** Programação · Subcategoria 3 (HTML, CSS e JavaScript)
 
-## 📸Print do Projeto
+## 📸 Capturas de tela
 
 <img src="img-projeto.png" alt="Página inicial do site O Equilíbrio é Necessário — hero verde com título rotativo, botão Conheça nossa missão e início da seção Nossa Missão com cartões temáticos" width="900" />
 
@@ -36,17 +36,15 @@ Apresentar, de forma clara e acessível, como a produção agrícola pode ser **
 
 ## ▶️ Como executar
 
-[GitHub Pages]([https://www.canva.com/](https://brayansantossouza-dev.github.io/agrinho-2026/))
+1. Clone ou baixe este repositório.
+2. Abra `index.html` no navegador (Chrome, Firefox ou Edge).
 
-Não é necessário servidor local.
+Não é necessário servidor local. Também é possível acessar a versão publicada no link abaixo.
 
 ## 🌍 Demonstração online
 
-Substitua os links abaixo após publicar no GitHub Pages:
-
-- 🔗 **Site:** `https://brayansantossouza-dev.github.io/agrinho-2026/`
-- 📦 **Repositório:** `https://github.com/brayansantossouza-dev/agrinho-2026`
-
+- 🔗 **Site:** [https://brayansantossouza-dev.github.io/agrinho-2026/](https://brayansantossouza-dev.github.io/agrinho-2026/)
+- 📦 **Repositório:** [https://github.com/brayansantossouza-dev/agrinho-2026](https://github.com/brayansantossouza-dev/agrinho-2026)
 
 ## 📁 Estrutura
 
@@ -70,3 +68,16 @@ Substitua os links abaixo após publicar no GitHub Pages:
     │   └── atribuicoes.js
     └── images/            (ícones, decorações, logos PNG)
 ```
+
+## 📋 Publicação (Agrinho 2026)
+
+| Item | Status |
+|------|--------|
+| Repositório público | ✅ |
+| Topic `agrinho` | ✅ |
+| GitHub Pages no About | ✅ |
+| Entrega na unidade Agrinho (Alura) | ✅ |
+
+## 📄 Licença e créditos
+
+Código sob **licença MIT** (2026, Brayan Wilian dos Santos de Souza). Detalhes de imagens, fontes e links externos em [`atribuicoes.html`](atribuicoes.html).
