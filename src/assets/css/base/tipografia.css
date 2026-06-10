@@ -1,0 +1,53 @@
+/* Tipografia geral do site. */
+body {
+  font-family: var(--fonte-corpo);
+  color: var(--cor-verde-escuro);
+  background: var(--cor-branco);
+  line-height: 1.55;
+}
+
+h1, h2, h3 {
+  font-family: var(--fonte-titulo);
+  line-height: 1.2;
+}
+
+.area-central {
+  width: min(100% - calc(var(--padding-lateral) * 2), var(--largura-maxima));
+  margin-inline: auto;
+}
+
+.pular-conteudo {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.pular-conteudo:focus {
+  position: fixed;
+  left: 0.75rem;
+  top: 0.75rem;
+  z-index: var(--z-index-pular-conteudo);
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.85rem;
+  background: var(--cor-verde-escuro);
+  color: var(--cor-branco);
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: var(--raio-foco);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

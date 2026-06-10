@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Equilíbrio é Necessário | Agrinho 2026</title>
+    <link rel="stylesheet" href="./src/assets/css/main.css">
+    <meta name="description" content="Agro Forte, produção responsável e sustentabilidade: equilíbrio entre o campo, o ar limpo e o cuidado com os seres vivos. Agrinho 2026.">
+    <meta name="author" content="Brayan Wilian dos Santos de Souza">
+  </head>
+  <body>
+    <a class="pular-conteudo" href="#missao">Pular para o conteúdo</a>
+
+    <!-- Hero: palavras alternam sozinhas (principal.js). -->
+    <header class="hero-inicio" id="inicio">
+      <img class="hero-decor hero-decor--folhas-esq" src="./src/assets/images/decor/folhas-grupo.png" alt="" width="120" height="120">
+      <img class="hero-decor hero-decor--folhas-dir" src="./src/assets/images/decor/folhas-canto.png" alt="" width="100" height="160">
+      <div class="hero-conteudo area-central">
+        <h1 class="hero-titulo">O Equilíbrio é</h1>
+        <p class="hero-subtitulo" id="hero-subtitulo" aria-live="polite">Necessário</p>
+        <div class="hero-indicadores" id="hero-indicadores" role="group" aria-label="Escolher palavra do título">
+          <button type="button" class="hero-indicador hero-indicador--ativo" data-hero-indice="0" aria-label="Mostrar: Necessário" aria-current="true"></button>
+          <button type="button" class="hero-indicador" data-hero-indice="1" aria-label="Mostrar: Possível"></button>
+          <button type="button" class="hero-indicador" data-hero-indice="2" aria-label="Mostrar: Urgente"></button>
+          <button type="button" class="hero-indicador" data-hero-indice="3" aria-label="Mostrar: De Todos"></button>
+        </div>
+        <p class="hero-lead">
+          No campo e na cidade, produzir com Agro Forte e sustentabilidade
+          é cuidar do solo, do ar e de quem depende da nossa produção.
+        </p>
+        <div class="hero-acao">
+          <a class="botao-pill botao-pill--claro" href="#missao">Conheça nossa missão</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Missão: cartões levam aos blocos por âncora (#tema-*). -->
+      <section class="secao-missao" id="missao" aria-labelledby="titulo-missao">
+        <div class="area-central">
+          <h2 class="titulo-secao" id="titulo-missao">Nossa Missão</h2>
+          <p class="intro-missao">
+            Agro Forte é produzir com responsabilidade: solo saudável, ar limpo
+            e respeito aos animais. Escolha um cartão para saber mais.
+          </p>
+          <ul class="grade-missao">
+            <li class="grade-missao-item">
+              <a class="cartao-missao" href="#tema-sustentabilidade">
+                <img class="cartao-missao-icone" src="./src/assets/images/icone-mundo-mao.png" alt="Ilustração de mãos segurando o planeta Terra" width="88" height="88">
+                <span class="cartao-missao-texto">Produção sustentável e Agro Forte</span>
+              </a>
+            </li>
+            <li class="grade-missao-item">
+              <a class="cartao-missao" href="#tema-ar">
+                <img class="cartao-missao-icone" src="./src/assets/images/icone-ar-vento.png" alt="Ilustração de correntes de ar e vento" width="88" height="88">
+                <span class="cartao-missao-texto">Ar limpo no campo e na cidade</span>
+              </a>
+            </li>
+            <li class="grade-missao-item">
+              <a class="cartao-missao" href="#tema-animais">
+                <img class="cartao-missao-icone" src="./src/assets/images/icone-vaca.png" alt="Ilustração do rosto de um bovino" width="88" height="88">
+                <span class="cartao-missao-texto">Bem-estar animal na produção</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Bloco: produção sustentável e Greenpeace. -->
+      <section class="bloco-tema" id="tema-sustentabilidade" aria-labelledby="titulo-sustentabilidade">
+        <div class="area-central bloco-tema-layout">
+          <img class="bloco-tema-icone-grande" src="./src/assets/images/icone-mundo-mao.png" alt="" width="180" height="180">
+          <div>
+            <h2 class="visually-hidden" id="titulo-sustentabilidade">Produção sustentável</h2>
+            <p class="caixa-texto-tema">
+              Agro Forte é produzir alimentos sem esgotar o solo nem a água.
+              Práticas sustentáveis — rotação de culturas, menos desperdício, cuidado com a natureza —
+              garantem produção hoje e um campo vivo amanhã.
+            </p>
+            <div class="chamada-parceiro">
+              <div class="chamada-parceiro-topo">
+                <div class="chamada-parceiro-info">
+                  <p class="chamada-parceiro-texto">Dê uma olhada na</p>
+                  <img class="chamada-parceiro-logo chamada-parceiro-logo--greenpeace" src="./src/assets/images/logos/greenpeace.png" alt="Logo Greenpeace" width="200" height="56">
+                </div>
+                <img class="seta-chamada" src="./src/assets/images/seta-curva.png" alt="" width="44" height="44">
+              </div>
+              <div class="chamada-parceiro-baixo">
+                <a class="botao-pill botao-pill--escuro link-externo" href="https://www.greenpeace.org/brasil/">Acesse aqui</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bloco: ar limpo e Instituto Ar. -->
+      <section class="bloco-tema" id="tema-ar" aria-labelledby="titulo-ar">
+        <div class="area-central bloco-tema-layout">
+          <img class="bloco-tema-icone-grande" src="./src/assets/images/icone-ar-vento.png" alt="" width="180" height="180">
+          <div>
+            <h2 class="visually-hidden" id="titulo-ar">Ar limpo</h2>
+            <p class="caixa-texto-tema">
+              No campo e na cidade, ar limpo faz parte de um Agro Forte:
+              mude agora, por você, pela produção e pelas próximas gerações.
+              Respirar bem é direito de quem planta, colhe e vive no entorno rural.
+            </p>
+            <div class="chamada-parceiro">
+              <div class="chamada-parceiro-topo">
+                <div class="chamada-parceiro-info">
+                  <p class="chamada-parceiro-texto">Dê uma olhada no</p>
+                  <img class="chamada-parceiro-logo" src="./src/assets/images/logos/instituto-ar.png" alt="Logo Instituto Ar Limpo Brasil" width="200" height="72">
+                </div>
+                <img class="seta-chamada" src="./src/assets/images/seta-curva.png" alt="" width="44" height="44">
+              </div>
+              <div class="chamada-parceiro-baixo">
+                <a class="botao-pill botao-pill--escuro link-externo" href="https://institutoar.org.br/">Acesse aqui</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bloco: bem-estar animal e Limpa Brasil. -->
+      <section class="bloco-tema" id="tema-animais" aria-labelledby="titulo-animais">
+        <div class="area-central bloco-tema-layout">
+          <img class="bloco-tema-icone-grande" src="./src/assets/images/icone-vaca.png" alt="" width="180" height="180">
+          <div>
+            <h2 class="visually-hidden" id="titulo-animais">Bem-estar animal</h2>
+            <p class="caixa-texto-tema">
+              Nossos animais de produção merecem uma boa qualidade de vida:
+              estamos todos vivos. Cuidar de quem alimenta o país
+              faz parte do equilíbrio entre Agro Forte e sustentabilidade.
+            </p>
+            <div class="chamada-parceiro">
+              <div class="chamada-parceiro-topo">
+                <div class="chamada-parceiro-info">
+                  <p class="chamada-parceiro-texto">Dê uma olhada no programa</p>
+                  <img class="chamada-parceiro-logo" src="./src/assets/images/logos/rede-protecao-animal.png" alt="Logo Limpa Brasil — Escoteiros do Brasil" width="200" height="80">
+                </div>
+                <img class="seta-chamada" src="./src/assets/images/seta-curva.png" alt="" width="44" height="44">
+              </div>
+              <div class="chamada-parceiro-baixo">
+                <a class="botao-pill botao-pill--escuro link-externo" href="https://www.escoteiros.org.br/limpa-brasil/">Acesse aqui</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Seta fixa: âncora #missao; visibilidade no principal.js. -->
+    <a class="botao-subir" id="botao-subir" href="#missao" aria-label="Voltar para Nossa Missão" hidden>
+      <img src="./src/assets/images/seta-cima.png" alt="" width="29" height="29" decoding="async">
+    </a>
+
+    <!-- Alto contraste: botão flutuante (acessibilidade.js). -->
+    <button class="botao-contraste" id="botao-contraste" type="button" aria-label="Ativar alto contraste" aria-pressed="false">
+      <img class="botao-contraste-icone" src="./src/assets/images/alto-contraste.jpg" alt="" width="28" height="28" decoding="async">
+    </button>
+
+    <footer class="rodape-site" id="rodape">
+      <img class="rodape-decor rodape-decor--vinhas" src="./src/assets/images/decor/vinhas-rodape.png" alt="" width="320" height="120">
+      <img class="rodape-decor rodape-decor--arvore" src="./src/assets/images/decor/arvore-folhas.png" alt="" width="80" height="80">
+      <div class="area-central">
+        <p class="rodape-frase">Nosso campo, nossos deveres.</p>
+        <p class="rodape-credito">
+          Produzido por: <strong>Brayan Wilian dos Santos de Souza</strong> ·
+          <a href="./atribuicoes.html">Atribuições</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./src/assets/js/principal.js"></script>
+    <script src="./src/assets/js/acessibilidade.js"></script>
+  </body>
+</html>

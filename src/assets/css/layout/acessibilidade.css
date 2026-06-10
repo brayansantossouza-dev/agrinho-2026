@@ -1,0 +1,64 @@
+/* Botão flutuante de alto contraste — direita, centralizado na altura da tela. */
+.botao-contraste {
+  position: fixed;
+  right: var(--offset-botao-subir);
+  top: 50%;
+  left: auto;
+  bottom: auto;
+  z-index: var(--z-index-botao-contraste);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--tamanho-botao-contraste);
+  height: var(--tamanho-botao-contraste);
+  padding: 0;
+  border: 3px solid var(--cor-verde-escuro);
+  border-radius: 50%;
+  background: var(--cor-branco);
+  box-shadow: 0 4px 14px var(--cor-sombra);
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition: transform 0.15s ease, border-color var(--duracao-transicao-padrao) ease,
+    background-color var(--duracao-transicao-padrao) ease;
+}
+
+.botao-contraste:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+.botao-contraste:focus-visible {
+  outline: 3px solid var(--cor-verde-principal);
+  outline-offset: 3px;
+}
+
+.botao-contraste-icone {
+  width: var(--tamanho-icone-contraste);
+  height: var(--tamanho-icone-contraste);
+  object-fit: contain;
+  display: block;
+}
+
+body.alto-contraste .botao-contraste {
+  border-color: var(--cor-contraste-destaque);
+  background: var(--cor-contraste-fundo);
+}
+
+body.alto-contraste .botao-contraste[aria-pressed="true"] {
+  background: var(--cor-contraste-destaque);
+}
+
+body.alto-contraste .botao-contraste[aria-pressed="true"] .botao-contraste-icone {
+  filter: brightness(0);
+}
+
+@media (max-width: 30rem) {
+  .botao-contraste {
+    top: auto;
+    bottom: calc(var(--offset-botao-subir) + var(--tamanho-seta-subir) + 1rem);
+    transform: none;
+  }
+
+  .botao-contraste:hover {
+    transform: scale(1.05);
+  }
+}

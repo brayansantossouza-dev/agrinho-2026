@@ -1,0 +1,119 @@
+/* Alto contraste: preto, branco e amarelo (padrão Agrinho). */
+body.alto-contraste {
+  background-color: var(--cor-contraste-fundo) !important;
+  color: var(--cor-contraste-texto) !important;
+}
+
+body.alto-contraste .hero-inicio,
+body.alto-contraste .secao-missao,
+body.alto-contraste .bloco-tema {
+  background-color: var(--cor-contraste-fundo) !important;
+  color: var(--cor-contraste-texto) !important;
+}
+
+body.alto-contraste .hero-decor,
+body.alto-contraste .rodape-decor {
+  opacity: 0.3;
+}
+
+body.alto-contraste .hero-titulo,
+body.alto-contraste .hero-subtitulo,
+body.alto-contraste .hero-lead,
+body.alto-contraste .titulo-secao,
+body.alto-contraste .intro-missao,
+body.alto-contraste .cartao-missao-texto,
+body.alto-contraste .chamada-parceiro-texto,
+body.alto-contraste .rodape-frase,
+body.alto-contraste .rodape-credito,
+body.alto-contraste .texto-atribuicao,
+body.alto-contraste .lista-links {
+  color: var(--cor-contraste-texto) !important;
+}
+
+body.alto-contraste .hero-indicador {
+  background: color-mix(in srgb, var(--cor-contraste-texto) 35%, transparent);
+}
+
+body.alto-contraste .hero-indicador--ativo {
+  background: var(--cor-contraste-destaque) !important;
+}
+
+body.alto-contraste .cartao-missao {
+  background: var(--cor-contraste-fundo) !important;
+  color: var(--cor-contraste-texto) !important;
+  border: 2px solid var(--cor-contraste-destaque);
+  box-shadow: none;
+}
+
+body.alto-contraste .cartao-missao:hover,
+body.alto-contraste .cartao-missao:focus-visible {
+  background: var(--cor-contraste-destaque) !important;
+  color: var(--cor-contraste-fundo) !important;
+}
+
+body.alto-contraste .cartao-missao:hover .cartao-missao-texto,
+body.alto-contraste .cartao-missao:focus-visible .cartao-missao-texto {
+  color: var(--cor-contraste-fundo) !important;
+}
+
+body.alto-contraste .caixa-texto-tema {
+  background: var(--cor-contraste-fundo) !important;
+  color: var(--cor-contraste-texto) !important;
+  border: 2px solid var(--cor-contraste-destaque);
+  box-shadow: none;
+}
+
+body.alto-contraste .botao-pill--claro,
+body.alto-contraste .botao-pill--escuro {
+  background: var(--cor-contraste-destaque) !important;
+  color: var(--cor-contraste-fundo) !important;
+  border: 2px solid var(--cor-contraste-destaque);
+}
+
+body.alto-contraste .botao-pill:hover,
+body.alto-contraste .botao-pill:focus-visible {
+  filter: none;
+  background: var(--cor-contraste-destaque) !important;
+  color: var(--cor-contraste-fundo) !important;
+  border-color: var(--cor-contraste-destaque) !important;
+}
+
+body.alto-contraste .rodape-credito a:hover,
+body.alto-contraste .rodape-credito a:focus-visible,
+body.alto-contraste .pagina-atribuicoes .link-externo:hover,
+body.alto-contraste .pagina-atribuicoes .link-externo:focus-visible {
+  color: var(--cor-contraste-fundo) !important;
+  background-color: var(--cor-contraste-destaque);
+  text-decoration: underline;
+}
+
+/* Imagens mantêm cores originais; fundo claro só onde ajuda a leitura. */
+body.alto-contraste .cartao-missao-icone,
+body.alto-contraste .bloco-tema-icone-grande,
+body.alto-contraste .seta-chamada,
+body.alto-contraste .botao-subir img {
+  filter: none;
+}
+
+body.alto-contraste .chamada-parceiro-logo,
+body.alto-contraste .chamada-parceiro-logo--greenpeace {
+  background: var(--cor-contraste-texto);
+  border: 2px solid var(--cor-contraste-destaque);
+  border-radius: var(--raio-foco);
+  padding: 0.35rem 0.55rem;
+}
+
+body.alto-contraste .rodape-site {
+  background: var(--cor-contraste-fundo) !important;
+  border-top: 2px solid var(--cor-contraste-destaque);
+}
+
+body.alto-contraste .rodape-credito a,
+body.alto-contraste .pagina-atribuicoes .link-externo {
+  color: var(--cor-contraste-destaque) !important;
+}
+
+body.alto-contraste .pular-conteudo:focus {
+  background: var(--cor-contraste-destaque);
+  color: var(--cor-contraste-fundo);
+}

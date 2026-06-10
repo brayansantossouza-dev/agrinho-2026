@@ -1,0 +1,114 @@
+/* Blocos temáticos — mobile-first: empilhado; lado a lado a partir de 45rem. */
+.bloco-tema {
+  padding: var(--espaco-secao) 0;
+  background: var(--cor-verde-principal);
+}
+
+.bloco-tema-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: var(--espaco-cartoes);
+  text-align: center;
+}
+
+.bloco-tema-icone-grande {
+  width: var(--tamanho-icone-bloco);
+  margin-inline: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 12px var(--cor-sombra));
+}
+
+.caixa-texto-tema {
+  background: var(--cor-verde-escuro);
+  color: var(--cor-texto-claro);
+  border-radius: var(--raio-cartao);
+  padding: 1.35rem 1.5rem;
+  font-size: clamp(1rem, 2.4vw, 1.12rem);
+  line-height: 1.55;
+  box-shadow: 0 10px 24px var(--cor-sombra);
+}
+
+.chamada-parceiro {
+  margin-top: var(--espaco-cartoes);
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.chamada-parceiro-topo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.chamada-parceiro-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.chamada-parceiro-texto {
+  font-weight: 700;
+  color: var(--cor-branco);
+  font-size: 0.98rem;
+  margin: 0;
+}
+
+.chamada-parceiro-logo {
+  height: var(--tamanho-logo-parceiro);
+  width: auto;
+  max-width: var(--tamanho-logo-parceiro-max);
+  object-fit: contain;
+}
+
+.chamada-parceiro-logo--greenpeace {
+  max-width: var(--tamanho-logo-greenpeace);
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--raio-logo-greenpeace);
+  background: var(--cor-branco);
+  box-shadow: 0 2px 8px var(--cor-sombra);
+}
+
+.seta-chamada {
+  flex-shrink: 0;
+  width: var(--tamanho-seta-chamada);
+  height: auto;
+  margin-top: 0.1rem;
+  opacity: 0.95;
+}
+
+.chamada-parceiro-baixo {
+  padding-left: var(--recuo-chamada-baixo);
+  margin-top: -0.35rem;
+}
+
+@media (min-width: 45rem) {
+  .bloco-tema-layout {
+    grid-template-columns: minmax(7rem, 0.85fr) minmax(0, 1.15fr);
+    gap: clamp(1.25rem, 4vw, 2.5rem);
+    text-align: start;
+  }
+
+  .chamada-parceiro {
+    margin-inline: 0;
+  }
+
+  .chamada-parceiro-topo {
+    justify-content: flex-start;
+  }
+
+  .chamada-parceiro-info {
+    justify-content: flex-start;
+  }
+
+  .chamada-parceiro-baixo {
+    padding-left: var(--recuo-chamada-baixo-desktop);
+  }
+}

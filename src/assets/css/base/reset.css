@@ -1,0 +1,27 @@
+/* Reset basico para o site comecar igual em todos os navegadores. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, h1, h2, h3, p, ul, figure {
+  margin: 0;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}

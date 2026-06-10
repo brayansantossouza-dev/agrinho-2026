@@ -1,0 +1,63 @@
+/* Variáveis globais — cores Canva, layout mobile-first e componentes. */
+:root {
+  /* Tipografia */
+  --fonte-titulo: "Playfair Display", Georgia, "Times New Roman", serif;
+  --fonte-corpo: "Nunito", "Segoe UI", system-ui, sans-serif;
+
+  /* Cores oficiais */
+  --cor-verde-principal: #21bb7b;
+  --cor-verde-escuro: #4d6527;
+  --cor-verde-cartao: #0ba84a;
+  --cor-greenpeace: #66cc00;
+  --cor-branco: #ffffff;
+  --cor-texto-claro: var(--cor-branco);
+  --cor-texto-intro: rgba(255, 255, 255, 0.92);
+  --cor-sombra: rgba(77, 101, 39, 0.22);
+  --cor-indicador-hero: rgba(255, 255, 255, 0.35);
+
+  /* Layout */
+  --largura-maxima: 1100px;
+  --largura-conteudo-texto: 40rem;
+  --largura-lead-hero: 34rem;
+  --largura-cartoes-mobile: 22rem;
+  --largura-atribuicoes: 42rem;
+  --padding-lateral: 1rem;
+  --espaco-secao: clamp(2.5rem, 8vw, 5rem);
+  --espaco-cartoes: 1.25rem;
+
+  /* Formas */
+  --raio-cartao: 18px;
+  --raio-botao: 999px;
+  --raio-logo-greenpeace: 8px;
+  --raio-foco: 8px;
+
+  /* Tamanhos de ícones e setas */
+  --tamanho-seta-subir: clamp(1.4rem, 3.9vw, 1.8rem);
+  --tamanho-logo-parceiro: clamp(3.25rem, 11vw, 5rem);
+  --tamanho-logo-greenpeace: min(100%, 13rem);
+  --tamanho-logo-parceiro-max: min(100%, 14rem);
+  --tamanho-icone-cartao: clamp(4rem, 11vw, 5.5rem);
+  --tamanho-icone-bloco: min(100%, 12rem);
+  --tamanho-seta-chamada: clamp(2.5rem, 7vw, 3.25rem);
+  --recuo-chamada-baixo: clamp(2.5rem, 20vw, 4rem);
+  --recuo-chamada-baixo-desktop: clamp(1.75rem, 14%, 3.75rem);
+
+  /* Alto contraste */
+  --cor-contraste-fundo: #000000;
+  --cor-contraste-texto: #ffffff;
+  --cor-contraste-destaque: #ffff00;
+
+  /* Camadas e posição fixa */
+  --z-index-botao-subir: 50;
+  --z-index-botao-contraste: 51;
+  --z-index-pular-conteudo: 100;
+  --offset-botao-subir: 1.25rem;
+  --tamanho-botao-contraste: clamp(2.75rem, 10vw, 3.25rem);
+  --tamanho-icone-contraste: clamp(1.35rem, 4vw, 1.65rem);
+
+  /* Animações */
+  --duracao-fade-hero: 0.12s;
+  --duracao-transicao-padrao: 0.2s;
+
+  /* Breakpoints: mobile = padrão | tablet = 48rem | desktop = 64rem */
+}

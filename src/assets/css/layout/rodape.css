@@ -1,0 +1,50 @@
+/* Rodape final com frase e credito. */
+.rodape-site {
+  position: relative;
+  padding: var(--espaco-secao) 1rem 2.5rem;
+  background: var(--cor-branco);
+  overflow: hidden;
+}
+
+.rodape-decor {
+  position: absolute;
+  pointer-events: none;
+  object-fit: contain;
+}
+
+.rodape-decor--vinhas {
+  top: 0;
+  left: 0;
+  width: min(100%, 22rem);
+  opacity: 0.85;
+}
+
+.rodape-decor--arvore {
+  top: 0.5rem;
+  left: 0.75rem;
+  width: clamp(3.5rem, 10vw, 5.5rem);
+  z-index: 1;
+}
+
+.rodape-frase {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  color: var(--cor-verde-escuro);
+  margin-bottom: 1.5rem;
+}
+
+.rodape-credito {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-size: 0.92rem;
+  color: var(--cor-verde-escuro);
+}
+
+.rodape-credito a {
+  color: var(--cor-verde-cartao);
+  font-weight: 700;
+}

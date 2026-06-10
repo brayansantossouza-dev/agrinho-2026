@@ -1,0 +1,50 @@
+/* Página de atribuições — estilos externos (exigência do edital). */
+.pagina-atribuicoes {
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+
+.pagina-atribuicoes .area-central {
+  max-width: var(--largura-atribuicoes);
+}
+
+.pagina-atribuicoes .titulo-principal {
+  margin-bottom: 1rem;
+}
+
+.pagina-atribuicoes .subtitulo-secao {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.pagina-atribuicoes .caixa-texto-tema {
+  margin-bottom: 1.25rem;
+}
+
+.pagina-atribuicoes .texto-atribuicao {
+  color: var(--cor-texto-claro);
+  margin-bottom: 1rem;
+}
+
+.pagina-atribuicoes .lista-links {
+  color: var(--cor-texto-claro);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.pagina-atribuicoes .link-externo {
+  color: var(--cor-greenpeace);
+  font-weight: 700;
+}
+
+.pagina-atribuicoes code {
+  font-size: 0.9em;
+}
+
+.pagina-atribuicoes .acao-voltar {
+  margin-top: 2rem;
+}
+
+.pagina-atribuicoes .acao-voltar .botao-pill {
+  text-decoration: none;
+}

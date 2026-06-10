@@ -1,0 +1,32 @@
+/* Mobile-first: ajustes para telas maiores e botões em telas estreitas. */
+
+/* Celular estreito: botões ocupam largura confortável */
+.hero-acao .botao-pill,
+.chamada-parceiro-baixo .botao-pill,
+.pagina-atribuicoes .acao-voltar .botao-pill {
+  width: 100%;
+  max-width: 18rem;
+}
+
+@media (min-width: 30rem) {
+  .hero-acao .botao-pill,
+  .chamada-parceiro-baixo .botao-pill,
+  .pagina-atribuicoes .acao-voltar .botao-pill {
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (min-width: 48rem) {
+  .hero-inicio {
+    min-height: min(88vh, 820px);
+  }
+
+  .hero-decor--folhas-esq {
+    width: clamp(6rem, 12vw, 9rem);
+  }
+
+  .hero-decor--folhas-dir {
+    width: clamp(5.5rem, 10vw, 8rem);
+  }
+}
