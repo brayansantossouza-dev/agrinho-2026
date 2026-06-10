@@ -36,8 +36,7 @@ Apresentar, de forma clara e acessível, como a produção agrícola pode ser **
 
 ## ▶️ Como executar
 
-1. Clone ou baixe este repositório.
-2. Abra `index.html` no navegador (Chrome, Firefox ou Edge).
+[GitHub Pages]([https://www.canva.com/](https://brayansantossouza-dev.github.io/agrinho-2026/))
 
 Não é necessário servidor local.
 
