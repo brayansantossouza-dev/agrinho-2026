@@ -6,7 +6,7 @@
 **Escola:** Instituto de Educação Prof. César Prieto Martinez  
 **Categoria:** Programação · Subcategoria 3 (HTML, CSS e JavaScript)
 
-## 📸 Capturas de tela
+## 📸Print do Projeto
 
 <img src="img-projeto.png" alt="Página inicial do site O Equilíbrio é Necessário — hero verde com título rotativo, botão Conheça nossa missão e início da seção Nossa Missão com cartões temáticos" width="900" />
 
