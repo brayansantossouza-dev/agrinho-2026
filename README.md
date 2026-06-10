@@ -3,7 +3,7 @@
 > Site educativo sobre **Agro Forte, futuro sustentável: equilíbrio entre produção e meio ambiente**. Três eixos — produção sustentável, ar limpo e bem-estar animal — com links para organizações que atuam em cada tema.
 
 **Autor:** Brayan Wilian dos Santos de Souza  
-**Escola:** Professora Linda Salamuni Bacila
+**Escola:** Professora Linda Salamuni Bacila 
 **Categoria:** Programação · Subcategoria 3 (HTML, CSS e JavaScript)
 
 ## 📸Print do Projeto
