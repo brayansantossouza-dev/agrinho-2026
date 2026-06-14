@@ -69,15 +69,6 @@ Não é necessário servidor local. Também é possível acessar a versão publi
     └── images/            (ícones, decorações, logos PNG)
 ```
 
-## 📋 Publicação (Agrinho 2026)
-
-| Item | Status |
-|------|--------|
-| Repositório público | ✅ |
-| Topic `agrinho` | ✅ |
-| GitHub Pages no About | ✅ |
-| Entrega na unidade Agrinho (Alura) | ✅ |
-
 ## 📄 Licença e créditos
 
 Código sob **licença MIT** (2026, Brayan Wilian dos Santos de Souza). Detalhes de imagens, fontes e links externos em [`atribuicoes.html`](atribuicoes.html).
